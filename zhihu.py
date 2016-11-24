@@ -153,27 +153,7 @@ class zhihuspider(base):
 
         #种cookie
         c_name = {
-            '_za':'dc8d90dd-260b-4632-9850-0141ffcb43ad',
-            'udid': 'ADBAx1wUlQmPTuMO70Tzw8FfhQDArukwzpw=|1457511337',
-            '_zap':'2dd3cc6e-7a1e-4b99-b9a1-99f80739efee',
-            'd_c0':"AEDAQNPtoQmPTr7LRM5g7pcvuIN5e3MBfCY=|1461298171",
-            '_ga': 'GA1.2.363518792.1453255774',
-            '_xsrf':'1d9558ae6f5c8e5b8305fdfcea32f0d0',
-            'l_cap_id':"M2IxZTc5NjEzY2Q3NDlmNGJkNjNlOTZkMDc1NTFlOWU=|1478748684|37ba6589ae7d76ac0aedbedb50878c331692174c",
-            'cap_id':"ZTNjOTBmZTg5YzM2NDBkYWE3NmYzY2I4YmI1ZWM5YWI=|1478748684|a424ad4baa6e5fe07c8b4c92fde27346a120af9f",
-            'login':"NTZiYzVhZDdkOTQxNDIwNThhNmVjMWRlNDMzZWYxNmM=|1478748688|c228424a80fbec352253253ae0e3394812931cd9",
-            'q_c1':'c2a5e0fd3363441b85f153ef804aaebd|1479695449000|1451355932000',
-            's-q':'%E5%8F%AA%E6%9C%89%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%A3%9E%E6%9C%BA%E4%B8%8D%E8%AE%A9%E7%8E%A9%E6%89%8B%E6%9C%BA%E5%90%97', 
-            's-i':'1',
-            'sid':'omhp98ge',
-            '__utmt':'1',
-            '__utma':'51854390.363518792.1453255774.1479956174.1479956174.1',
-            '__utmb':'51854390.6.10.1479956174',
-            '__utmc':'51854390',
-            '__utmz':'51854390.1479956174.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic',
-            '__utmv':'51854390.100-1|2=registration_date=20131016=1^3=entry_date=20131016=1',
-            'a_t':"2.0AABAfEofAAAXAAAAj-VdWAAAQHxKHwAAAEDAQNPtoQkXAAAAYQJVTRB3S1gAQvwMXZPbo-7fjxmKADcc6KDuy20nFO-CQaqLJcCsmFG-fGG_gc8UgA==",
-            'z_c0':'Mi4wQUFCQWZFb2ZBQUFBUU1CQTAtMmhDUmNBQUFCaEFsVk5FSGRMV0FCQ19BeGRrOXVqN3QtUEdZb0FOeHpvb083TGJR|1479956623|ed1d826de9dcb5fdbdcad14b1a66b077e64baafe'
+                #这里放知乎的cookie 因为知乎没有cookie 不让看详情页
             }
         headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36'}
         r = requests.get(self.url, headers=headers)
